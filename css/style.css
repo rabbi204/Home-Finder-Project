@@ -1,0 +1,173 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: 'Lato'
+  width: 100%;
+}
+/*--------------header-area-------------*/
+
+header {
+    background: #006;
+    color: white;
+    width: 100%;
+    height: 20%;
+    display: block;
+}
+navbar{
+  
+}
+header img {
+    width: 100%;
+}
+
+.nav-link{
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+
+}
+.nav-link:hover{
+  color: #00E8E8;
+  text-decoration: underline;
+}
+.active.nav-link{
+  color: #00E8E8;
+  font-weight: 700;
+}
+/*--------------carousel-area-------------*/
+
+.carousel-item{
+}
+.carousel-caption {
+    height: 200px !important;
+    padding-top: 1px;
+    text-align: left;
+}
+.rabbi, .mysilder {
+    height: 350px !important;
+}
+
+.carousel-item {
+    height: 392px;
+}
+
+
+
+/*--------------card-area-------------*/
+
+.item {
+    margin-top: 20px;
+    background-color: dimgray;
+    overflow: hidden;
+}
+.item .search-container {
+    float: left;
+    margin: 28px auto;
+    padding-left: 31%;
+}
+.item input[type=text] {
+    padding: 7px 14px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: 1px solid white;
+}
+
+.item .search-container button {
+    float: right;
+    padding: 8px 19px;
+    margin-top: 8px;
+    margin-right: 22px;
+    background: #ddd;
+    font-size: 15px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.item .search-container button:hover {
+  background: #ccc;
+}
+
+
+.card {
+    margin-bottom: 25px;
+    display: block;
+    overflow: hidden;
+    background: #FFFAFA;
+}
+.card:hover{
+  box-shadow: 0 0 10px;
+  transition: 0.5s;
+}
+.card-title {
+    margin-bottom: .75rem;
+    font-size: 22px;
+}
+
+.list-card-details {
+    line-height: 9px;
+    height: 14px;
+}
+.list-card-details>li {
+    border-right: 2px solid #D1D1D5;
+    display: inline;
+    padding: 0 6px;
+    font-size: 15px;
+}
+abbr.list-card-level {
+    font-size: 9px;
+}
+.card-body a{
+  display: block;
+}
+
+.cardbtn{
+    width: 39%;
+    color: #fff;
+    margin: auto;
+    display: block;
+}
+.cardbtn:hover{
+  color: #fff;
+}
+
+section-1{
+  margin-top: 20px;
+}
+
+/*--------------about-us-area-------------*/
+.about-us {
+    width: 98%;
+    margin: auto;
+}
+
+.about-us h1 {
+    text-align: center;
+    overflow: hidden;
+    background: #E8E8E8;
+    padding: 12px 0px;
+    font-size: 2.2rem;
+}
+.row-col1{
+  background-color: #F8F9FA;
+}
+.row-col2 img{
+  width: 100%;
+}
+.row-col2{
+  width: 100%;
+}
+.about-us, .para {
+    margin-top: 21px;
+    font-size: 18px;
+}
+
+.social-icon i {
+    color: red;
+    font-size: 20px;
+}
+.social-icon i:hover{
+  color: #55653D;
+  transition: 0.5s;
+}
